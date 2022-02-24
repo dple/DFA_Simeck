@@ -26,11 +26,14 @@ After compiling, you will have three executable files: FA_SIMECK32, FA_SIMECK48,
 
 
 ## Results
-A detail of simulation will be provided soon.
+For each cipher member, we carried out 10,000 simulation attacks and report the average number of faulty ciphers required to recover the last round key K^{T - 1} and the whole master key (corresponding to the last 4 round keys $K^{T - 1}$, $K^{T - 2}$, $K^{T - 3}$, and $K^{T - 4}$).
+
 
 ---
 # References
 
-[1] **The Simeck Family of Lightweight Block Ciphers**, by Gangqiang Yang, Bo Zhu, Valentin Suder, Mark D. Aagaard, and Guang Gong, CHES 2015. https://eprint.iacr.org/2015/612
+[1] **Improved fault analysis on SIMECK ciphers**, by Duc-Phong Le, Rongxing Lu and Ali A. Ghorbani, Journal of Cryptographic Engineering, 2021, https://link.springer.com/article/10.1007/s13389-021-00263-w 
 
-[2] **SIMON and SPECK: Block Ciphers for the Internet of Things**, Ray Beaulieu and Douglas Shors and Jason Smith and Stefan Treatman-Clark and Bryan Weeks and Louis Wingers. https://eprint.iacr.org/2015/585
+[2] **The Simeck Family of Lightweight Block Ciphers**, by Gangqiang Yang, Bo Zhu, Valentin Suder, Mark D. Aagaard, and Guang Gong, CHES 2015. https://eprint.iacr.org/2015/612
+
+[3] **SIMON and SPECK: Block Ciphers for the Internet of Things**, Ray Beaulieu and Douglas Shors and Jason Smith and Stefan Treatman-Clark and Bryan Weeks and Louis Wingers. https://eprint.iacr.org/2015/585
