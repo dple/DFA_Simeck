@@ -28,6 +28,10 @@ After compiling, you will have three executable files: FA_SIMECK32, FA_SIMECK48,
 ## Results
 For each cipher member, we carried out 10,000 simulation attacks and report the average number of faulty ciphers required to recover the last round key <img src="https://latex.codecogs.com/svg.image?K^{T&space;-&space;1}" title="K^{T - 1}" /> and the whole master key (corresponding to the last 4 round keys <img src="https://latex.codecogs.com/svg.image?K^{T&space;-&space;1},&space;K^{T&space;-&space;2},&space;K^{T&space;-&space;3},&space;\,&space;and\,&space;K^{T&space;-&space;4}" title="K^{T - 1}, K^{T - 2}, K^{T - 3}, \, and\, K^{T - 4}" />.
 
+![alt text](https://github.com/dple/DFA_Simeck/blob/241f02f34ea789074d786b4a7fa76293a71ec209/histogram.png)
+
+The above Figure shows a histogram of the number of fault injections to obtain the last round key and the full master key of all three variants of SIMECK block cipher. 
+Frequency is represented on the vertical axis and the number of fault injections is represented on the horizontal axis. 
 
 ---
 # References
