@@ -26,7 +26,7 @@ After compiling, you will have three executable files: FA_SIMECK32, FA_SIMECK48,
 
 
 ## Results
-For each cipher member, we carried out 10,000 simulation attacks and report the average number of faulty ciphers required to recover the last round key K^{T - 1} and the whole master key (corresponding to the last 4 round keys K^{T - 1}, K^{T - 2}, K^{T - 3}, and K^{T - 4}).
+For each cipher member, we carried out 10,000 simulation attacks and report the average number of faulty ciphers required to recover the last round key <img src="https://latex.codecogs.com/svg.image?K^{T&space;-&space;1}" title="K^{T - 1}" /> K^{T - 1} and the whole master key (corresponding to the last 4 round keys K^{T - 1}, K^{T - 2}, K^{T - 3}, and K^{T - 4}).
 
 \sum_{\forall i}{x_i^{2}}
 
